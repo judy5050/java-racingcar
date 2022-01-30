@@ -28,4 +28,8 @@ public class Car {
             location++;
         }
     }
+
+    public boolean isInLocation(int location) {
+        return this.location ==location;
+    }
 }

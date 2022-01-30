@@ -16,7 +16,6 @@ public class ResultView {
         System.out.println(RUN_RESULT_TEXT);
     }
 
-
     public void printCarsLocation(final List<RoundHistory> roundHistories) {
         for (RoundHistory roundHistory : roundHistories) {
             printCarNames(roundHistory);
